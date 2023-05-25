@@ -1,0 +1,275 @@
+body {
+	font-size: 16px;
+  color: black;
+  background-color: #D1E8E2;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #2C3531;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding-top: 32px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {  
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #D1E8E2;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: black;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #D1E8E2;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+
+/**** MAIN CONTENT - SEARCH BY INGREDIENTS ****/
+
+.toggle-link {
+  float: right;
+  color: #116466;
+  padding-right: 73px;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+
+.toggle-link:hover {
+  color: #2C3531;
+  font-weight: bold;
+}
+
+.recipes-title {
+  font-weight: bold;
+}
+
+#enter-ing {
+  background-color: #116466;
+  color:#ece7e7;
+  height: 100%;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+#content-div {
+  height: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+input {
+  color:black;
+}
+
+#filter {
+  float: right;
+  color:#2C3531;
+  border-color: #2C3531;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 54px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.search {
+  color:black;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#filter:hover, .search:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/**** END MAIN CONTENT - SEARCH BY INGREDIENTS ****/
+
+
+
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #2C3531;
+  color:white;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#contact-us, #about-us {
+  line-height: 2;
+  padding-left: 150px;
+}
+#contact-us > span, #about-us > span {
+  font-size: 1.3em;
+}
+
+.footer {
+  margin-top: 0;
+}
+
+/* END FOOTER */
+
+
+
+/***********Large devices only***********/
+@media (min-width: 1200px) {
+
+
+}
+
+/***********Medium devices only***********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/***********Small devices only***********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	
+}
+
+/***********Extra small devices only***********/
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1 {   /* Restaurant Name */
+		padding-top: 10px;
+		font-size: 5vw;  /* 1vw = 1% of viewport width */
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	#call-btn > a {
+	    font-size: 1.5em;
+	    display: block;
+	    margin: 0 20px 0 20px;
+	    padding: 10px;
+	    border: 2px solid #fff;
+	    background-color: #f6b319;
+	    color: #951c49;
+  }
+  /* End Home Page */
+
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+}
+
+/***********Super Extra Small devices only***********/
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+
+	/*.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}*/
+}
+
